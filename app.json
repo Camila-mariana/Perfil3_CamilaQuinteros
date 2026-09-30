@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Evaluacion Moviles",
+    "slug": "evaluacion-moviles",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.estudiante.evaluacionmoviles",
+      "adaptiveIcon": {
+        "backgroundColor": "#001743",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "backgroundColor": "#DDDDDB"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e6f7801a-7f7a-4c9d-8d36-1b4d6fb43b3d"
+      }
+    },
+    "owner": "camila17"
+  }
+}
